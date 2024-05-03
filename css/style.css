@@ -1,0 +1,342 @@
+body{
+    background-color: #fff;
+    margin: 0px;
+}
+/*HEADER - MENU CONFIGURATION*/
+.ppalMenu{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: #181716;
+}
+
+.sectionMenu{
+    display: flex;
+    flex-basis: 33.3%;
+    height: 56px;   
+    align-items: center; 
+}
+
+#leftSection{
+    margin-left: 24px;
+}
+#leftSection span{   
+    color: #fff;
+    font: 14px / 14px Work Sans, sans-serif;
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 8px;   
+}
+
+#leftSection span:hover{
+    text-decoration: underline;
+}
+
+#centerSection{
+    display: flex;
+    justify-content: center;
+}
+#centerSection img{
+    height: 54px;
+    width: 130px;
+}
+
+#rightSection{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#rightSection span{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -.2px;
+}
+
+#subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 188px;
+    margin-right: 32px;
+    background-color: #dc0000;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#signIn{
+    font-size: 13px;
+    margin-right: 32px;
+}
+#rightSection img{
+    margin-right: 25px;
+}
+
+/*BREAKING NEWS SECTION*/
+.wideToLeft{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.leftBorder{
+    display: flex;
+    width: 95%;
+}
+
+#breakingDiv{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 24px;
+}
+
+#breakingBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font: 10px / 12px Work Sans, sans-serif;
+    background-color: #dc0000;
+    width: 80px;
+    height: 24px;
+    margin-top: 24px;
+}
+
+.lastest{
+    display: flex;
+    width: 100%;
+    height: 74px;
+    margin-top: 10px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    justify-content:flex-start;
+    border-right: 1px lightgray solid; 
+    border-bottom: 1px lightgray solid;
+}
+
+#lastest1, #lastest2, #lastest3, #lastest4{
+    display: flex;
+    height: 60px;
+    flex-basis: 24%;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+#arrowSection{
+    display: flex;
+    flex-basis: 4%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 38px;
+}
+
+#arrow{
+    height: 36px;
+}
+
+.articleTime, .article{
+    border-right: 1px lightgray solid;
+}
+#lastest4 .articleTime, #lastest4 .article {
+    border-right: 1px white solid;
+}
+
+.articleTime p{
+    color: #737373;
+    font: 12px / 1.17 Work Sans;    
+}
+
+.article{
+    color: #333;
+    font: 700 14px / 1.71 Merriweather;
+    max-height: 48px;
+    padding: 0px 15px 0px 0px;
+}
+.article a:hover{
+    text-decoration: underline;
+}
+
+.wideToCenter{
+   /* border-right: 1px lightgray solid;*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.marginLeftRight{
+    display: flex;
+    width: 90%;
+}
+#edition{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin: 40px 0px 8px;
+    align-items: center;
+    border-bottom: 1px lightgray solid;
+}
+
+#edition span{
+    color: #737373;
+    display: flex;
+    font: 500 12px / 1.33 Work Sans, sans-serif;
+}
+
+.mainSection{
+    display: flex;
+}
+#marginMainNew{
+    display: flex;
+    width: 60%;
+    justify-content: flex-start;
+    border-right: 1px lightgray solid;
+}
+.mainNew{   
+    width: 95%;
+}
+#mainImg{
+    max-width: 100%;
+    height: 432px;
+}
+#marginMoreNews{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+.moreNews{
+    width: 90%;
+}
+.mainNew{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#daily {
+    display: flex;
+    align-items: center;
+}
+
+#daily{
+    color: #fff;
+    font: 10px / 12px Work Sans, sans-serif;
+    letter-spacing: .5px;
+    margin-left: 45px;
+    padding: 6px 12px;
+    background-color: #007aff;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 15px;
+}
+#title{
+    font: 700 22px / 34px Merriweather, GeorgiaCustom;
+}
+
+#title:hover{
+    text-decoration: underline;
+}
+
+#author{
+    font: 400 12px / 1.33 Work Sans, sans-serif;
+    letter-spacing: -.2px;
+}
+#short{
+    font: normal 16px / 1.5 tabular-numbers, Georgia;
+    text-align: center;
+}
+
+#tailoredForYou{
+    color: #000;
+    font: 700 18px / 26px Merriweather, GeorgiaCustom;
+}
+#join{
+    color: #333;
+    font: 12px / 16px Work Sans, sans-serif;
+    letter-spacing: -.2px;
+    font-size: 14px;
+    height: 40px;
+}
+
+#divJoinButton{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+}
+
+#joinButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 160px;
+    background: #007ac8;
+    border-color: #007ac8;
+    border-radius: 8px;
+}
+
+#joinButton span{
+    color: #fff;
+    font-family: Work Sans, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+#joinButton:hover{
+    background: #045a8f;
+    border-color:#045a8f;
+
+}
+
+.premium{
+    color: #706031;
+    font: 600 10px / 12px Work Sans, sans-serif;
+    letter-spacing: .5px;
+    margin-right: 8px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 12px;
+}
+.premiunNews{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px lightgray solid;
+    height: 120px;
+}
+
+.leftAside{
+    flex-basis: 75%;
+    height: 92px;
+}
+.rightAside{
+    flex-basis: 25%;
+    height: 92px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pNew{
+    color: #333;
+    font: 700 14px / 22px Merriweather, GeorgiaCustom;
+}
+
+.pNew:hover{
+    text-decoration: underline;
+}
+
+.pin{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/*
+.leftAside{
+
+}*/
